@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<ExternalDataProcessor uuid="5e7c9e97-e72a-424d-9c2c-0862da2f84d1">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<DataProcessor uuid="61dfe141-aa7f-4587-9d3c-f48e7a46f1dd">
 		<InternalInfo>
-			<xr:ContainedObject>
-				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>45e1396b-424d-4288-874e-c077ccdd79d3</xr:ObjectId>
-			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.КонсольЗапросов9000" category="Object">
-				<xr:TypeId>7a99b402-8bda-4b57-aa9a-eca2f2285d47</xr:TypeId>
-				<xr:ValueId>f5b75301-7803-4bd3-b3aa-3b5bc25ec046</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.КонсольЗапросов9000" category="Object">
+				<xr:TypeId>79dcbc0f-6314-4459-bb2a-bf64127128e0</xr:TypeId>
+				<xr:ValueId>bdb0faa2-4b14-4132-9367-b0bdaed91cde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.КонсольЗапросов9000" category="Manager">
+				<xr:TypeId>ef771f83-61ef-407d-87ea-38226517fb20</xr:TypeId>
+				<xr:ValueId>7518f1ba-574d-41c3-9e7c-b92f62abb12b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -20,8 +20,12 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.КонсольЗапросов9000.Form.Форма</DefaultForm>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.КонсольЗапросов9000.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="ce610b0f-11f2-4d85-9d8a-ffe53a9411fe">
@@ -583,7 +587,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0a42bb3f-b7d6-456d-800f-20a45aef83fe">
+			<Attribute uuid="9150b24a-304e-4993-914b-7fe4f171b559">
 				<Properties>
 					<Name>РежимЗапускаВнешняяОбработка</Name>
 					<Synonym>
@@ -617,7 +621,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5fd62a7a-d319-4c7a-9876-7eed58e63b69">
+			<Attribute uuid="b963c155-250d-4a64-8aba-6b727bd3a795">
 				<Properties>
 					<Name>ИмяОбработки</Name>
 					<Synonym>
@@ -655,7 +659,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f871bc87-9c04-4554-b13a-fa78003bda35">
+			<Attribute uuid="f228e650-cca6-49c3-b9ef-9c11ca9aed15">
 				<Properties>
 					<Name>ПутьМетаданных</Name>
 					<Synonym>
@@ -709,5 +713,5 @@
 			<Template>СправкаАлгоритм</Template>
 			<Template>МакетКонфигурацииТЖ</Template>
 		</ChildObjects>
-	</ExternalDataProcessor>
+	</DataProcessor>
 </MetaDataObject>
