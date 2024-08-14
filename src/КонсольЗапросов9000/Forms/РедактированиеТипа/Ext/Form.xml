@@ -94,6 +94,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаТипЗначенияРасширеннаяПодсказка" id="60"/>
@@ -212,6 +213,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКвалификаторыЧислаРасширеннаяПодсказка" id="28"/>
 					<ChildItems>
@@ -251,6 +253,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКвалификаторыДатыРасширеннаяПодсказка" id="41"/>
 					<ChildItems>
@@ -304,6 +307,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКвалификаторыСтрокиРасширеннаяПодсказка" id="39"/>
 					<ChildItems>
@@ -347,6 +351,7 @@
 					<v8:content>Группа редактирование таблицы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаРедактированиеТаблицыРасширеннаяПодсказка" id="62"/>
 			<ChildItems>
 				<Table name="СтруктураТаблицы" id="63">
